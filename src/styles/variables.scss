@@ -1,0 +1,45 @@
+$themeColor: #131f97;
+$white: #ffffff;
+$black: #000000;
+$lineGray: #959c99;
+$gray: #f0f0f0;
+$fontGrayDark: #606060;
+$fontGray: #cccccc;
+$offerBannerColor: #848ac6;
+$bgColor: #f5f5f5;
+$bgColorLight: #fafafa;
+$titleBlack: #1c1c1c;
+
+//Sizes
+$containerWidth: 1120px;
+
+
+
+//Mixins
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-top {
+    display: flex;
+    align-items: unset;
+    justify-content: space-between;
+}
+
+@mixin flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin pseudo-filler {
+    content: '';
+    position: absolute;
+}
